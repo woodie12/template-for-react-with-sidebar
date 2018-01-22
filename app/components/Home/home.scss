@@ -1,0 +1,54 @@
+.Home{
+  position: relative;
+}
+.Nav-bar{
+  Glyphicon{
+    float: right;
+  }
+}
+
+#icon{
+  float:right;
+}
+
+.img{
+  height:25%;
+  weight:25%;
+  position: relative;
+  left: 20%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.text{
+  text-align: center;
+}
+
+//upper chart
+.upper-chart{
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+//container for the chart part
+
+.subchart{
+  position: relative;
+  top: 10%;
+}
+
+//Main chart with space
+.mainChart{
+  position: absolute;
+  left: 10%;
+
+  text-align: center;
+}
+
+//place for the google map for the data center location
+.Map{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+}

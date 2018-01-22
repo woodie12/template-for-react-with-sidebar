@@ -17,6 +17,15 @@ module.exports = {
                 query: {
                     presets: ['es2015']
                 }
+            },
+            {
+                test: /\.scss$/,
+                loaders: ['style-loader', 'css-loader?-url', 'postcss-loader', 'sass-loader']
+            },
+
+            {
+                test: /\.css$/,
+                loaders: ['style-loader', 'css-loader?-url', 'postcss-loader']
             }
         ]
     },
@@ -28,5 +37,6 @@ module.exports = {
     resolve: {
             extensions: ['.js', '.jsx']
     },
+
     plugins: [HTMLWebpackPluginConfig]
 };

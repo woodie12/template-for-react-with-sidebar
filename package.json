@@ -11,9 +11,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "autoprefixer": "^7.2.5",
+    "bootstrap": "^4.0.0",
+    "css-loader": "^0.28.9",
     "express": "^4.16.2",
+    "material-ui": "^0.20.0",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.0.10",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-bootstrap": "^0.32.0",
+    "react-dom": "^16.2.0",
+    "sass-loader": "^6.0.6",
+    "semantic-ui-react": "^0.77.2",
+    "style-loader": "^0.19.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
