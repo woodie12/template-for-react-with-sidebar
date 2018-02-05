@@ -26,8 +26,12 @@ module.exports = {
             {
                 test: /\.css$/,
                 loaders: ['style-loader', 'css-loader?-url', 'postcss-loader']
+            },
+            { test: /\.(png|jpg)$/,
+              loader: 'url-loader?limit=8192'
             }
-        ]
+]
+
     },
 
     output: {
@@ -39,4 +43,5 @@ module.exports = {
     },
 
     plugins: [HTMLWebpackPluginConfig]
+
 };

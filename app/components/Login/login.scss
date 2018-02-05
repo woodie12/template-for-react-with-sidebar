@@ -1,0 +1,56 @@
+.login{
+  h1{
+    color: white;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+  }
+
+  //float the button to the right
+  .float-right{
+    float: right;
+    .margin-right-20{
+      margin-right:20px;
+    }
+  }
+
+  //setting the logo to the horizontally middle aligned
+  img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-100%);
+  }
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 50%;
+}
+
+.login-container{
+  position:relative;
+  background-color: #182933;
+  width:100%;
+  height: 100%;
+}
+
+footer{
+  width: 100%;
+  //background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom:0;
+}
+
+.col{
+  color: white;
+}
+
+//set v-2.0
+.right-align{
+  float: right;
+  color: grey;
+  font-size: 10px;
+}
